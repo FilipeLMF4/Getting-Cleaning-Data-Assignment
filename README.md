@@ -23,13 +23,3 @@ You should create one R script called run_analysis.R that does the following.
   3) Uses descriptive activity names to name the activities in the data set
   4) Appropriately labels the data set with descriptive variable names.
   5) From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-
-## Applied methodology
-May be executed automatically by executing the run_analysis.R script.
-  1) All files are downloaded manually to a working directory and unzipped. 
-  2) Features, test and training data are read into the R environment.
-  3) Complete Data set is created by merging the separate test and train data frames.
-  4) Separate data frame with only mean and standard deviation measurements is created.
-  6) Data set is rearranged, redundant activity column is removed.
-  5) Data set is appropriately relabled to include explicit variable names.
-  6) Separate data set, with average of each variable for each activity and each subject, is created and written to a .txt file
